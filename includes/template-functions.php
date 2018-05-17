@@ -18,6 +18,8 @@ if (!function_exists("ism_mobile_header_get_template")) {
         $templatePathSelected = null;
         $templatePaths = [
             ISMMH_TEMPLATE_DIR . DIRECTORY_SEPARATOR . "{$slug}.php",
+            get_stylesheet_directory() . "/templates/ism_wp_mobile_header/{$slug}.php",
+            get_stylesheet_directory() . "/templates/ism_mobile_header/{$slug}.php",
             get_stylesheet_directory() . "/ism_wp_mobile_header/{$slug}.php",
             get_stylesheet_directory() . "/ism_mobile_header/{$slug}.php",
         ];
