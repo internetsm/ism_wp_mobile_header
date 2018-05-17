@@ -11,12 +11,7 @@ add_action('wp_footer', function () {
 
         if ($value) {
 
-            $external = [
-                \IsmMobileHeader\Helper\OptionsHelper::FACEBOOK_KEY,
-                \IsmMobileHeader\Helper\OptionsHelper::INSTAGRAM_KEY,
-            ];
-
-            $target = in_array($name, $external) ? "_blank" : "_self";
+            $target = in_array($name, \IsmMobileHeader\Mapping\SocialMapping::EXTERNAL) ? "_blank" : "_self";
 
             $detailFields[] = [
                 'name'   => $name,
