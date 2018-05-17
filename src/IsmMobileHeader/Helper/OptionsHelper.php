@@ -19,6 +19,10 @@ class OptionsHelper
 
     const FACEBOOK_KEY = "_ism_mobile_header_facebook";
     const INSTAGRAM_KEY = "_ism_mobile_header_instagram";
+    const YOUTUBE_KEY = "_ism_mobile_header_youtube";
+    const LINKEDIN_KEY = "_ism_mobile_header_linkedin";
+    const PINTEREST_KEY = "_ism_mobile_header_pinterest";
+    const VKONTAKTE_KEY = "_ism_mobile_header_vkontakte";
 
     const BAR_BOTTOM_POSITION_KEY = "_ism_mobile_header_bar_bottom_position";
     const USE_FONTAWESOME_KEY = "_ism_mobile_header_use_fontawesome";
@@ -39,6 +43,10 @@ class OptionsHelper
             self::EMAIL2_KEY,
             self::FACEBOOK_KEY,
             self::INSTAGRAM_KEY,
+            self::YOUTUBE_KEY,
+            self::LINKEDIN_KEY,
+            self::PINTEREST_KEY,
+            self::VKONTAKTE_KEY,
         ];
     }
 

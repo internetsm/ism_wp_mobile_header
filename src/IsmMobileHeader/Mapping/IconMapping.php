@@ -22,5 +22,9 @@ class IconMapping
         \IsmMobileHeader\Helper\OptionsHelper::WHATSAPP2_KEY  => 'whatsapp',
         \IsmMobileHeader\Helper\OptionsHelper::FACEBOOK_KEY   => 'facebook',
         \IsmMobileHeader\Helper\OptionsHelper::INSTAGRAM_KEY  => 'instagram',
+        \IsmMobileHeader\Helper\OptionsHelper::YOUTUBE_KEY    => 'youtube',
+        \IsmMobileHeader\Helper\OptionsHelper::LINKEDIN_KEY   => 'linkedin',
+        \IsmMobileHeader\Helper\OptionsHelper::PINTEREST_KEY  => 'pinterest',
+        \IsmMobileHeader\Helper\OptionsHelper::VKONTAKTE_KEY  => 'vk',
     ];
 }

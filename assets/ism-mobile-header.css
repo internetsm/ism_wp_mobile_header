@@ -51,4 +51,10 @@
     .ism-mobile-header.quantity-10 a {
         font-size: 26px;
     }
+
+    .ism-mobile-header.quantity-11 a,
+    .ism-mobile-header.quantity-12 a,
+    .ism-mobile-header.quantity-13 a {
+        font-size: 22px;
+    }
 }
