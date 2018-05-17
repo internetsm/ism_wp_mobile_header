@@ -1,0 +1,54 @@
+.ism-mobile-header {
+    display: none;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .ism-mobile-header {
+        display: block;
+        position: fixed;
+        padding: 20px 10px;
+        width: 100%;
+        left: 0;
+        z-index: 999;
+        background: #fff;
+        text-align: center;
+    }
+
+    .ism-mobile-header.top {
+        top: 0;
+        border-bottom: 1px solid #464646;
+    }
+
+    .ism-mobile-header.bottom {
+        bottom: 0;
+        border-top: 1px solid #464646;
+    }
+
+    .ism-mobile-header a {
+        padding: 0 4px;
+    }
+
+    .ism-mobile-header.quantity-1 a,
+    .ism-mobile-header.quantity-2 a,
+    .ism-mobile-header.quantity-3 a,
+    .ism-mobile-header.quantity-4 a {
+        font-size: 38px;
+        padding: 0 8px;
+    }
+
+    .ism-mobile-header.quantity-5 a,
+    .ism-mobile-header.quantity-6 a {
+        font-size: 34px;
+    }
+
+    .ism-mobile-header.quantity-7 a,
+    .ism-mobile-header.quantity-8 a {
+        font-size: 30px;
+    }
+
+    .ism-mobile-header.quantity-9 a,
+    .ism-mobile-header.quantity-10 a {
+        font-size: 26px;
+    }
+}
