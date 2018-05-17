@@ -9,7 +9,7 @@
             <?php foreach ($detail_fields as $field): ?>
                 <tr>
                     <th scope="row">
-                        <label for="<?php echo $field['name']; ?>"><i class="fa fa-"></i>
+                        <label for="<?php echo $field['name']; ?>"><i class="fa fa-<?php echo $field['icon']; ?>"></i>
                             &nbsp; <?php echo $field['label']; ?></label>
                     </th>
                     <td><input name="<?php echo $field['name']; ?>" type="text" id="<?php echo $field['name']; ?>"
