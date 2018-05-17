@@ -5,14 +5,15 @@
 @media only screen and (max-width: 480px) {
 
     .ism-mobile-header {
-        display: block;
+        display: flex;
         position: fixed;
-        padding: 20px 10px;
+        padding: 10px 25px;
         width: 100%;
         left: 0;
         z-index: 999;
         background: #fff;
         text-align: center;
+        justify-content: space-between;
     }
 
     .ism-mobile-header.top {
@@ -26,7 +27,6 @@
     }
 
     .ism-mobile-header a {
-        padding: 0 4px;
     }
 
     .ism-mobile-header.quantity-1 a,
@@ -34,7 +34,6 @@
     .ism-mobile-header.quantity-3 a,
     .ism-mobile-header.quantity-4 a {
         font-size: 38px;
-        padding: 0 8px;
     }
 
     .ism-mobile-header.quantity-5 a,
