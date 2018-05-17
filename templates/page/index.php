@@ -8,7 +8,9 @@
             <tbody>
             <?php foreach ($detail_fields as $field): ?>
                 <tr>
-                    <th scope="row"><label for="<?php echo $field['name']; ?>"><?php echo $field['label']; ?></label>
+                    <th scope="row">
+                        <label for="<?php echo $field['name']; ?>"><i class="fa fa-"></i>
+                            &nbsp; <?php echo $field['label']; ?></label>
                     </th>
                     <td><input name="<?php echo $field['name']; ?>" type="text" id="<?php echo $field['name']; ?>"
                                value="<?php echo $field['value']; ?>" class="regular-text"></td>

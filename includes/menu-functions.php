@@ -22,6 +22,7 @@ add_action('admin_menu', function () {
             $detailFields[] = [
                 'label' => $label,
                 'name'  => $name,
+                'icon'  => \IsmMobileHeader\Mapping\IconMapping::MAPPING[$name],
                 'value' => get_option($name, ''),
             ];
         }
