@@ -15,6 +15,7 @@ class SocialMapping
         \IsmMobileHeader\Helper\OptionsHelper::FACEBOOK_KEY,
         \IsmMobileHeader\Helper\OptionsHelper::INSTAGRAM_KEY,
         \IsmMobileHeader\Helper\OptionsHelper::VKONTAKTE_KEY,
+        \IsmMobileHeader\Helper\OptionsHelper::TWITTER_KEY,
         \IsmMobileHeader\Helper\OptionsHelper::LINKEDIN_KEY,
         \IsmMobileHeader\Helper\OptionsHelper::YOUTUBE_KEY,
     ];

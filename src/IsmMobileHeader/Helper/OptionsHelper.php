@@ -21,6 +21,7 @@ class OptionsHelper
     const INSTAGRAM_KEY = "_ism_mobile_header_instagram";
     const YOUTUBE_KEY = "_ism_mobile_header_youtube";
     const LINKEDIN_KEY = "_ism_mobile_header_linkedin";
+    const TWITTER_KEY = "_ism_mobile_header_twitter";
     const PINTEREST_KEY = "_ism_mobile_header_pinterest";
     const VKONTAKTE_KEY = "_ism_mobile_header_vkontakte";
 
@@ -45,6 +46,7 @@ class OptionsHelper
             self::INSTAGRAM_KEY,
             self::YOUTUBE_KEY,
             self::LINKEDIN_KEY,
+            self::TWITTER_KEY,
             self::PINTEREST_KEY,
             self::VKONTAKTE_KEY,
         ];

@@ -25,6 +25,7 @@ class IconMapping
         \IsmMobileHeader\Helper\OptionsHelper::YOUTUBE_KEY    => 'youtube',
         \IsmMobileHeader\Helper\OptionsHelper::LINKEDIN_KEY   => 'linkedin',
         \IsmMobileHeader\Helper\OptionsHelper::PINTEREST_KEY  => 'pinterest',
+        \IsmMobileHeader\Helper\OptionsHelper::TWITTER_KEY    => 'twitter',
         \IsmMobileHeader\Helper\OptionsHelper::VKONTAKTE_KEY  => 'vk',
     ];
 }
