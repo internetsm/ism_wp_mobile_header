@@ -29,6 +29,12 @@
     .ism-mobile-header a {
     }
 
+    .ism-mobile-header.quantity-1,
+    .ism-mobile-header.quantity-2,
+    .ism-mobile-header.quantity-3 {
+        justify-content: space-around;
+    }
+
     .ism-mobile-header.quantity-1 a,
     .ism-mobile-header.quantity-2 a,
     .ism-mobile-header.quantity-3 a,

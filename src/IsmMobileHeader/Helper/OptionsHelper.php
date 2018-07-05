@@ -28,6 +28,7 @@ class OptionsHelper
 
     const BAR_BOTTOM_POSITION_KEY = "_ism_mobile_header_bar_bottom_position";
     const USE_FONTAWESOME_KEY = "_ism_mobile_header_use_fontawesome";
+    const ANIMATED_KEY = "_ism_mobile_header_animated";
 
     /**
      * @return array
@@ -62,6 +63,7 @@ class OptionsHelper
         return [
             self::BAR_BOTTOM_POSITION_KEY,
             self::USE_FONTAWESOME_KEY,
+            self::ANIMATED_KEY,
         ];
     }
 
