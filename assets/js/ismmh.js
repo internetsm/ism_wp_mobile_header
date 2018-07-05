@@ -30,7 +30,7 @@ ismmh.initLoadAnimation = function () {
     });
 
     ismmh.initLoadAnimation.animate = function (links, index) {
-        if (index < (links.length - 1)) {
+        if (index < links.length) {
             links[index].ismmhAnimateCss('bounce', function () {
                 ismmh.initLoadAnimation.animate(links, index + 1);
             });
