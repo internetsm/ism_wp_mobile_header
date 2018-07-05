@@ -47,7 +47,9 @@ ismmh.initLoadAnimation = function () {
             links.push(jQuery(this));
         });
 
-        ismmh.initLoadAnimation.animate(header.attr("animation"), links, 0);
+        setInterval(function () {
+            ismmh.initLoadAnimation.animate(header.attr("animation"), links, 0);
+        }, 15000);
     }
 };
 
