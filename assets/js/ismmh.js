@@ -50,3 +50,7 @@ ismmh.initLoadAnimation = function () {
         ismmh.initLoadAnimation.animate(links, 0);
     }
 };
+
+jQuery(function () {
+    ismmh.initLoadAnimation();
+});
