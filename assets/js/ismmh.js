@@ -29,10 +29,10 @@ ismmh.initLoadAnimation = function () {
         },
     });
 
-    ismmh.initLoadAnimation.animate = function (links, index) {
+    ismmh.initLoadAnimation.animate = function (animation, links, index) {
         if (index < links.length) {
-            links[index].ismmhAnimateCss('bounce', function () {
-                ismmh.initLoadAnimation.animate(links, index + 1);
+            links[index].ismmhAnimateCss(animation, function () {
+                ismmh.initLoadAnimation.animate(animation, links, index + 1);
             });
         }
     };
@@ -47,7 +47,7 @@ ismmh.initLoadAnimation = function () {
             links.push(jQuery(this));
         });
 
-        ismmh.initLoadAnimation.animate(links, 0);
+        ismmh.initLoadAnimation.animate(header.attr("animation"), links, 0);
     }
 };
 
